@@ -123,3 +123,8 @@
      border-radius: 16px;
     /* background-image: linear-gradient(to bottom right, red, rgb(255, 187, 0)); */
 }
+
+.ingredientsBlock .p {
+   
+    text-transform: none;
+}
