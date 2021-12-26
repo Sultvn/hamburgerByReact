@@ -166,10 +166,10 @@ export default class Burger extends Component {
           </div>
           <div className="productTab">
             <h1>Список продуктов:</h1>
-            <p>ЛИСТ САЛАТА х {this.state.lettuce}</p>
-            <p>КУСОЧЕК СЫРА х {this.state.pieceOfCheese}</p>
-            <p>ЛОМТИК МЯСА х {this.state.sliceOfMeat}</p>
-            <p>ПОМИДОРЧИКИ х {this.state.tomato}</p>
+            <p className="p">ЛИСТ САЛАТА х {this.state.lettuce}</p>
+            <p className="p">КУСОЧЕК СЫРА х {this.state.pieceOfCheese}</p>
+            <p className="p">ЛОМТИК МЯСА х {this.state.sliceOfMeat}</p>
+            <p className="p">ПОМИДОРЧИКИ х {this.state.tomato}</p>
           </div>
           <h1>Заплатите {burgerPriceSNalogom}$ </h1>
           <h2>(в том числе и обслуга 10%)</h2>
